@@ -7,8 +7,8 @@ We present optimal linear codes in IPM, SSS-based masking, etc.
 
 <br/>
 
-***Note 1: *Magma* scripts are in the folder: [*magma_scripts.*](./magma_scripts)**
+***Note 1**: all *Magma* scripts are in the folder: [*magma_scripts.*](./magma_scripts)
 
-***Note 2: Some outputs are in the folder: [*outputs.*](./outputs)**
+***Note 2**: Some outputs are in the folder: [*outputs.*](./outputs)
 
 <br/>
