@@ -16,6 +16,7 @@ We present optimal linear codes in IPM, SSS-based masking, etc.
 ## IPM with *n=2* shares
 
 - Number of the linear code candidates: **255**
+- Number of optimal codes: **12** with the dual distance **d = 4**, and the kissing number **B_d = 4**
 - [*Magma* scripts](./magma_scripts/ipm_n2_aes.m)
 - [*Output logs*](./outputs/log_ipm_n2_aes.log)
 
@@ -23,14 +24,17 @@ We present optimal linear codes in IPM, SSS-based masking, etc.
 
 ## IPM with *n=3* shares
 
-- Number of the linear code candidates: **65,025** in total, investigated **32,640** codes because of the equivalence of linear codes
-- Output logs: *pending*
+- Number of the linear code candidates: **65,025** in total, investigated **32,640** codes by considering the equivalence of linear codes
+- Number of optimal codes: **3** with the dual distance **d = 8**, and the kissing number **B_d = 6**
+- [*Magma* scripts](./magma_scripts/ipm_n3_aes.m)
+- [*Output logs*](./outputs/log_ipm_n3_aes.log)
 
 <br/>
 
 ## (3,1)-SSS based masking
 
-- Number of the linear code candidates: **2,731,135** in total, investigated **32,131** codes because of the equivalence of linear codes
+- Number of the linear code candidates: **2,731,135** in total, investigated **32,131** codes by considering the equivalence of linear codes
+- Number of optimal codes: **3** with the dual distance **d = 4**, the kissing number **B_d = 37**, and the adjusted kissing number **B'_d = 53**
 - [*Magma* scripts](./magma_scripts/sss_n3_t1_aes.m)
 - [*Output logs*](./outputs/log_sss_n3_t1_aes.log)
 
@@ -38,14 +42,15 @@ We present optimal linear codes in IPM, SSS-based masking, etc.
 
 ## (5,2)-SSS based masking
 
-- Number of the linear code candidates: **8,637,487,551** in total, investigated **2,667,126** codes because of the equivalence of linear codes
-- Output logs: *pending*
+- Number of the linear code candidates: **8,637,487,551** in total, investigated **2,667,126** codes by considering the equivalence of linear codes
+- Optimal codes: only found one by fixing \alpha_1 = 1 and \alpha_2 = 23. The optimal one is \alpha = (1, 23, 71, 167, 235), which has: dual distance **d = 6**, the kissing number **B_d = 36**, and the adjusted kissing number is **B'_d = 46**
 
 <br/>
 
 ## (3,1)-IPM-FD
 
-- Number of the linear code candidates: **65,025** in total, investigated **32,640** codes because of the equivalence of linear codes
+- Number of the linear code candidates: **65,025** in total, investigated **32,640** codes by considering the equivalence of linear codes
+- Number of optimal codes: **3** (equivalent to optimal codes in (3,1)-SSS based masking)
 - Output logs: *pending*
 
 <br/>
