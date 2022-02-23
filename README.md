@@ -43,6 +43,13 @@ We present optimal linear codes in IPM, SSS-based masking, etc.
 
 <br/>
 
+## (3,1)-IPM-FD
+
+- Number of the linear code candidates: **65,025** in total, investigated **32,640** codes because of the equivalence of linear codes
+- Output logs: *pending*
+
+<br/>
+
 ## Computing of B'_d in redundant sharings
 
 - Consider (3,1)-SSS based masking with one of optimal parameters \alpha = (1, 51, 54)
