@@ -1,5 +1,5 @@
 /**
-@ This is for (3, 1) - sss scheme
+@ This is for (3, 1) - SSS scheme
 @ We use the irreducible polynomial in AES
 @ Wei Cheng, 2021-12-01
 **/
