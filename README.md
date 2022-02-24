@@ -11,6 +11,8 @@ We present optimal linear codes in IPM, SSS-based masking, etc.
 
 ***Note 2**: Some outputs are in the folder: [*outputs.*](./outputs)
 
+***Note 3**: WD is short for weight distribution. For weight distribution over F_2 (bit-level), we only provide the first five terms.
+
 <br/>
 
 ## IPM with *n=2* shares
