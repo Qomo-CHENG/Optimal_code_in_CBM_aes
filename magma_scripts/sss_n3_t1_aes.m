@@ -54,7 +54,7 @@ for j:= i+1 to 255 do
 	print "Dimension: ", Dimension(C + D);
 	print "WD orig D (word): ", WeightDistribution(D);
 	print "WD dual D (word): ", WeightDistribution(Dual(D)); 
-	print "WD dual D  (bit) sub_dual: ", WeightDistribution(Dual(SubfieldRepresentationCode(D, GF(2))))[1..5];
+	print "WD dual D  (bit): ", WeightDistribution(Dual(SubfieldRepresentationCode(D, GF(2))))[1..5];
 end for;
 end for;
 
