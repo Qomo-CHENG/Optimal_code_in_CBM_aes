@@ -52,7 +52,7 @@ We present optimal linear codes in IPM, SSS-based masking, etc.
 ## (3,1)-IPM-FD
 
 - Number of the linear code candidates: **65,025** in total, investigated **32,640** codes by considering the equivalence of linear codes
-- Number of optimal codes: **3** (equivalent to optimal codes in (3,1)-SSS based masking)
+- Number of optimal codes: **3** with the dual distance **d = 4**, and the kissing number **B_d = 37** (equivalent to optimal codes in (3,1)-SSS based masking)
 - Output logs: *pending*
 
 <br/>
