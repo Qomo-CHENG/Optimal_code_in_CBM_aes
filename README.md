@@ -1,6 +1,6 @@
 <h1 align="center">Open-source for Attack-based Evaluation on Code-based Masking</h1>
 
-This repo is created for the open-source of the paper `Information Leakage in Code-based Masking: A Systematic Evaluation by Higher-Order Attacks`, which has been submitted to *IEEE XXXX*. All the data and scripts would allow other researchers to verify and reproduce our results.
+This repo is created for the open-source of the paper `Information Leakage in Code-based Masking: A Systematic Evaluation by Higher-Order Attacks`, which has been submitted to *IEEE XXXX*. All the data and scripts would allow other researchers to verify and reproduce our coding-theoretic results.
 
 We present optimal linear codes in IPM, SSS-based masking, etc. 
 **Note that the irreducible polynomial is g(X) = X^8 + X^4 + X^3 + X +1, which is the one used in AES.**
@@ -9,7 +9,7 @@ We present optimal linear codes in IPM, SSS-based masking, etc.
 
 ***Note 1**: all *Magma* scripts are in the folder: [*magma_scripts.*](./magma_scripts)
 
-***Note 2**: Some outputs are in the folder: [*outputs.*](./outputs)
+***Note 2**: outputs are in the folder: [*outputs.*](./outputs)
 
 ***Note 3**: WD is short for weight distribution. For weight distribution over F_2 (bit-level), we only provide the first five terms.
 
