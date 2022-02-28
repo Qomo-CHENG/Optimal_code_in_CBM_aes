@@ -2,7 +2,7 @@
 
 This repo is created for the open-source of the paper `Information Leakage in Code-based Masking: A Systematic Evaluation by Higher-Order Attacks`, which has been submitted to *IEEE XXXX*. All the data and scripts would allow other researchers to verify and reproduce our coding-theoretic results.
 
-We present optimal linear codes in IPM, SSS-based masking, etc. 
+We present optimal linear codes in IPM, SSS-based masking, and IPM-FD in certain cases. 
 **Note that the irreducible polynomial is g(X) = X^8 + X^4 + X^3 + X +1, which is the one used in AES.**
 
 <br/>
@@ -53,7 +53,7 @@ We present optimal linear codes in IPM, SSS-based masking, etc.
 
 - Number of the linear code candidates: **65,025** in total, investigated **32,640** codes by considering the equivalence of linear codes
 - Number of optimal codes: **3** with the dual distance **d = 4**, and the kissing number **B_d = 37** (equivalent to optimal codes in (3,1)-SSS based masking)
-- Output logs: *pending*
+- [*Output logs*](./outputs/log_ipm_fd_n3_t1_aes.log)
 
 <br/>
 
