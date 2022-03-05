@@ -3,7 +3,7 @@
 This repo is created for the open-source of the paper `Information Leakage in Code-based Masking: A Systematic Evaluation by Higher-Order Attacks`, which has been submitted to *IEEE XXXX*. All the data and scripts would allow other researchers to verify and reproduce our coding-theoretic results.
 
 We present optimal linear codes in IPM, SSS-based masking, and IPM-FD in certain cases. 
-**Note that the irreducible polynomial is g(X) = X^8 + X^4 + X^3 + X +1, which is the one used in AES.**
+**Note that the irreducible polynomial is g(X) = X^8 + X^4 + X^3 + X +1, which is the one used in AES.** Therefore, these results in this repo are complementary to another two repos: [*OC-IPM*](https://github.com/Qomo-CHENG/OC-IPM) and [*GeneralizedCM*](https://github.com/Qomo-CHENG/GeneralizedCM), where the default irreducible polynomial g(X) = X^8 + X^4 + X^3 + **X^2** +1 is used.
 
 <br/>
 
