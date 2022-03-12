@@ -1,7 +1,7 @@
 /**
 @ This is for (2, 1) - IPM scheme
 @ We use the irreducible polynomial in AES
-@ Wei Cheng, 2021-12-01
+@ Wei Cheng, 2021-12-10
 **/
 
 P<X>:=IrreduciblePolynomial(GF(2),8);
@@ -42,8 +42,8 @@ print "--------------------- IPM with n=2 -----------------------";
 n := 2;
 for i:= 1 to 255 do
 	print "i = ", i;    
-    x_1 := Integer2Element(1);
-    x_i := Integer2Element(i);
+	x_1 := Integer2Element(1);
+	x_i := Integer2Element(i);
 	H := Matrix(GF256, 1, n, [ x_i, x_1]); 
 	D := LinearCode(H);  
 	print "WD dual D (word): ", WeightDistribution(Dual(D)); 
