@@ -17,7 +17,7 @@ We present optimal linear codes in IPM, SSS-based masking, and IPM-FD in certain
 
 ## IPM with *n=2* shares
 
-- Number of the linear code candidates: **255**
+- Number of the linear code candidates: **255** (including the Boolean one)
 - Number of optimal codes: **12** with the dual distance **d = 4**, and the kissing number **B_d = 4**
 - [*Magma* scripts](./magma_scripts/ipm_n2_aes.m)
 - [*Output logs*](./outputs/log_ipm_n2_aes.log)
