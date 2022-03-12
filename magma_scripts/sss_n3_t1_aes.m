@@ -1,7 +1,7 @@
 /**
 @ This is for (3, 1) - SSS scheme
 @ We use the irreducible polynomial in AES
-@ Wei Cheng, 2021-12-01
+@ Wei Cheng, 2021-12-11
 **/
 
 P<X>:=IrreduciblePolynomial(GF(2),8);
@@ -42,20 +42,20 @@ print "--------------------- (3, 1)-SSS -----------------------";
 n := 3;
 t := 1;
 for i:= 2 to 254 do
-for j:= i+1 to 255 do
-	print "i, j = ", i, j;    
-    x_1 := Integer2Element(1);
-    x_i := Integer2Element(i);
-    x_j := Integer2Element(j);
-	G := Matrix(GF256, t, n, [ x_1, x_1, x_1]);   
-	H := Matrix(GF256, t, n, [ x_1, x_i, x_j]);
-	C := LinearCode(G);  
-	D := LinearCode(H); 
-	print "Dimension: ", Dimension(C + D);
-	print "WD orig D (word): ", WeightDistribution(D);
-	print "WD dual D (word): ", WeightDistribution(Dual(D)); 
-	print "WD dual D  (bit): ", WeightDistribution(Dual(SubfieldRepresentationCode(D, GF(2))))[1..5];
-end for;
+    for j:= i+1 to 255 do
+        print "i, j = ", i, j;    
+        x_1 := Integer2Element(1);
+        x_i := Integer2Element(i);
+        x_j := Integer2Element(j);
+        G := Matrix(GF256, t, n, [ x_1, x_1, x_1]);   
+        H := Matrix(GF256, t, n, [ x_1, x_i, x_j]);
+        C := LinearCode(G);  
+        D := LinearCode(H); 
+        print "Dimension: ", Dimension(C + D);
+        print "WD orig D (word): ", WeightDistribution(D);
+        print "WD dual D (word): ", WeightDistribution(Dual(D)); 
+        print "WD dual D  (bit): ", WeightDistribution(Dual(SubfieldRepresentationCode(D, GF(2))))[1..5];
+    end for;
 end for;
 
 exit;
