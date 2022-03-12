@@ -41,16 +41,16 @@ print "\n--------------------- Main program -----------------------";
 print "--------------------- IPM with n=3 -----------------------";
 n := 3;
 for i:= 1 to 255 do
-for j:= i to 255 do
-	print "i, j = ", i, j;    
-    x_1 := Integer2Element(1);
-    x_i := Integer2Element(i);
-    x_j := Integer2Element(j);
-	H := Matrix(GF256, 2, n, [[ x_i, x_1, 0], [x_j, 0, x_1]]); 
-	D := LinearCode(H);  
-	print "WD dual D (word): ", WeightDistribution(Dual(D)); 
-	print "WD dual D  (bit): ", WeightDistribution(Dual(SubfieldRepresentationCode(D, GF(2))))[1..5];
-end for;
+    for j:= i to 255 do
+        print "i, j = ", i, j;    
+        x_1 := Integer2Element(1);
+        x_i := Integer2Element(i);
+        x_j := Integer2Element(j);
+        H := Matrix(GF256, 2, n, [[ x_i, x_1, 0], [x_j, 0, x_1]]); 
+        D := LinearCode(H);  
+        print "WD dual D (word): ", WeightDistribution(Dual(D)); 
+        print "WD dual D  (bit): ", WeightDistribution(Dual(SubfieldRepresentationCode(D, GF(2))))[1..5];
+    end for;
 end for;
 
 exit;
