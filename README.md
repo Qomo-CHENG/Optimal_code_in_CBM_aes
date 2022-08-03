@@ -19,7 +19,7 @@ We present optimal linear codes in IPM, SSS-based masking, and IPM-FD in certain
 
 - Number of the linear code candidates: **255** (including the Boolean one)
 - Number of optimal codes: **12** with the dual distance **d = 4**, and the kissing number **B_d = 4**
-- Optimal parameters: $\alpha=(1, \alpha_1)$ where $\alpha_1\in \{{23, 46, 51, 54, 81, 92, 95, 102, 108, 162, 165, 184}\}$
+- Optimal parameters: $\alpha=(1, \alpha_1)$ where $\alpha_1\in \{23, 46, 51, 54, 81, 92, 95, 102, 108, 162, 165, 184\}$
 - [*Magma* scripts](./magma_scripts/ipm_n2_aes.m)
 - [*Output logs*](./outputs/log_ipm_n2_aes.log)
 
@@ -29,7 +29,7 @@ We present optimal linear codes in IPM, SSS-based masking, and IPM-FD in certain
 
 - Number of the linear code candidates: **65,025** in total, investigated **32,640** codes by considering the equivalence of linear codes
 - Number of optimal codes: **3** with the dual distance **d = 8**, and the kissing number **B_d = 6**
-- Optimal parameters: $\alpha=(1, \alpha_1, \alpha_2)$ where $(\alpha_1, \alpha_2)\in\{{(27,196), (91,204), (218,240)}\}$
+- Optimal parameters: $\alpha=(1, \alpha_1, \alpha_2)$ where $(\alpha_1, \alpha_2)\in\{(27,196), (91,204), (218,240)\}$
 - [*Magma* scripts](./magma_scripts/ipm_n3_aes.m)
 - [*Output logs*](./outputs/log_ipm_n3_aes.log)
 
